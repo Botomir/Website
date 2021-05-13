@@ -1,13 +1,13 @@
 import React from 'react';
-import Home from './pages';
 import { Footer, NavBar } from './components';
 import { StylesDictionary } from './types/StylesDictionary';
+import Router from './router';
 
 function App() {
   return (
     <div className="App" style={styles.app}>
       <NavBar />
-      <Home />
+      <Router />
       <Footer />
     </div>
   );
