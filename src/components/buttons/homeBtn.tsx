@@ -8,9 +8,7 @@ interface Props {
 
 function HomeBtn({ text, href }: Props) {
   return (
-    <>
-      <Button variant="outlined" color="primary" size="large" href={href} style={style}>{text}</Button>
-    </>
+    <Button variant="outlined" color="primary" size="large" href={href} style={style}>{text}</Button>
   );
 }
 
