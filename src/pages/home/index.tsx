@@ -1,31 +1,35 @@
 import React from 'react';
+import styled from 'styled-components';
+import { Grid } from '@material-ui/core';
 import HomeLogo from './homeLogo';
-import { StylesDictionary } from '../../types/StylesDictionary';
-import { AddToServerBtn, DonateBtn } from '../../components';
+import HomeButtons from './homeButtons';
 
-function Home() {
+export default function Home() {
   return (
-    <div className="Home" style={styles.home}>
-      <HomeLogo />
-      <h1>Botomir</h1>
-      <h2>Your friendly neighbourhood Discord bot</h2>
-      <AddToServerBtn text="Add to Server" href="/" />
-      <div style={styles.donateBtn}>
-        <DonateBtn text="Donate" href="/" />
-      </div>
-    </div>
+    <>
+      <Grid
+        container
+        direction="column"
+        justify="center"
+        alignItems="center"
+        style={{ height: '80vh' }}
+      >
+        <HomeLogo />
+        <Title>Botomir</Title>
+        <SubText>Your friendly neighbourhood Discord bot</SubText>
+        <HomeButtons />
+      </Grid>
+    </>
   );
 }
 
-const styles: StylesDictionary = {
-  home: {
-    backgroundColor: '#B8D8EB',
-    paddingBottom: '2.5rem',
-    textAlign: 'center',
-  },
-  donateBtn: {
-    paddingTop: '2vh',
-  },
-};
+const Title = styled.p`
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 200;
+`;
 
-export default Home;
+const SubText = styled.p`
+    font-size: 22px;
+`;
