@@ -1,38 +1,34 @@
 import React from 'react';
-import { Container } from '@material-ui/core';
+import styled from 'styled-components';
 import HomeLogo from './homeLogo';
-import { StylesDictionary } from '../../types/StylesDictionary';
 import { HomeBtn } from '../../components';
 
-function Home() {
+export default function Home() {
   return (
-    <div className="Home" style={styles.home}>
+    <HomeDiv>
       <HomeLogo />
-      <h1>Botomir</h1>
-      <p style={styles.subtext}>Your friendly neighbourhood Discord bot</p>
-      <Container>
-        <HomeBtn text="Add to Server" href="/" />
-        <div style={styles.donateBtn}>
-          <HomeBtn text="Donate" href="/" />
-        </div>
-      </Container>
-    </div>
+      <Title>Botomir</Title>
+      <SubText>Your friendly neighbourhood Discord bot</SubText>
+      <HomeBtn text="Add to Server" href="/" />
+      <div style={{ paddingBottom: '2vh' }} />
+      <HomeBtn text="Donate" href="/" />
+    </HomeDiv>
   );
 }
 
-const styles: StylesDictionary = {
-  home: {
-    backgroundColor: '#B8D8EB',
-    paddingTop: '10vh',
-    paddingBottom: '2.5rem',
-    textAlign: 'center',
-  },
-  subtext: {
-    fontSize: '22px',
-  },
-  donateBtn: {
-    paddingTop: '2vh',
-  },
-};
+const HomeDiv = styled.div`
+    background-color: #B8D8EB;
+    padding-top: 10vh;
+    padding-bottom: 2.5rem;
+    text-align: center;
+`;
 
-export default Home;
+const Title = styled.h1`
+    font-size: 56px;
+    margin-top: 0;
+    margin-bottom: 0;
+`;
+
+const SubText = styled.p`
+    font-size: 22px;
+`;
