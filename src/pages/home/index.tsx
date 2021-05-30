@@ -29,7 +29,7 @@ const HomeDiv = styled.div`
     background-color: #B8D8EB;
 `;
 
-const Title = styled.h1`
+const Title = styled.p`
     font-size: 64px;
     margin-top: 0;
     margin-bottom: 0;
