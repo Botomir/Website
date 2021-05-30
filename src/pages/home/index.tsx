@@ -6,7 +6,7 @@ import { HomeBtn } from '../../components';
 
 export default function Home() {
   return (
-    <HomeDiv>
+    <>
       <Grid
         container
         direction="column"
@@ -21,18 +21,15 @@ export default function Home() {
         <ButtonSpacing />
         <HomeBtn text="Donate" href="/" />
       </Grid>
-    </HomeDiv>
+    </>
   );
 }
-
-const HomeDiv = styled.div`
-    background-color: #B8D8EB;
-`;
 
 const Title = styled.p`
     font-size: 64px;
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: 200;
 `;
 
 const SubText = styled.p`

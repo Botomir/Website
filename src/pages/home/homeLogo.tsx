@@ -8,7 +8,8 @@ function HomeLogo() {
 }
 
 const BotomirLogo = styled.img`
-  height: 313px;
+  height: 40vh;
+  max-height: 500px;
 `;
 
 export default HomeLogo;
