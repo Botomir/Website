@@ -1,7 +1,6 @@
-import AddToServerBtn from './addToServerBtn';
-import DonateBtn from './donateBtn';
+import HomeBtn from './homeBtn';
 
 export {
-  AddToServerBtn,
-  DonateBtn,
+  // eslint-disable-next-line import/prefer-default-export
+  HomeBtn,
 };
