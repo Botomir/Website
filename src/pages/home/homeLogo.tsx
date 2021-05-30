@@ -10,6 +10,7 @@ function HomeLogo() {
 const BotomirLogo = styled.img`
   height: 40vh;
   max-height: 500px;
+  min-height: 250px;
 `;
 
 export default HomeLogo;

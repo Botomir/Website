@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Grid } from '@material-ui/core';
 import HomeLogo from './homeLogo';
-import { HomeBtn } from '../../components';
+import HomeButtons from './homeButtons';
 
 export default function Home() {
   return (
@@ -17,9 +17,7 @@ export default function Home() {
         <HomeLogo />
         <Title>Botomir</Title>
         <SubText>Your friendly neighbourhood Discord bot</SubText>
-        <HomeBtn text="Add to Server" href="/" />
-        <ButtonSpacing />
-        <HomeBtn text="Donate" href="/" />
+        <HomeButtons />
       </Grid>
     </>
   );
@@ -34,8 +32,4 @@ const Title = styled.p`
 
 const SubText = styled.p`
     font-size: 22px;
-`;
-
-const ButtonSpacing = styled.div`
-    padding-bottom: 2vh;
 `;
