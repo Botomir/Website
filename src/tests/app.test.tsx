@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from '../App';
+import App from '../app';
 
 beforeEach(() => {
   render(<App />);
@@ -20,7 +20,6 @@ test('renders About link', () => {
   const linkElement = screen.getByText(/About/i);
   expect(linkElement).toBeInTheDocument();
 });
-
 
 test('renders Add to Server button', () => {
   const linkElement = screen.getByText(/Add To Server/i);
