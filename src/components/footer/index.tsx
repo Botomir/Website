@@ -1,7 +1,7 @@
 import React from 'react';
 import { StylesDictionary } from '../../types/StylesDictionary';
 
-function Footer() {
+export default function Footer() {
   return (
     <div className="footer" style={styles.footer}>
       <p style={styles.footerText}>Footer</p>
@@ -27,5 +27,3 @@ const styles: StylesDictionary = {
     color: 'white',
   },
 };
-
-export default Footer;
