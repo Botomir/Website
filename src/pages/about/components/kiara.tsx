@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export default function AboutKiara() {
+export default function Kiara() {
   return (
     <>
       <Name>Kiara Callender</Name>
@@ -11,7 +11,7 @@ export default function AboutKiara() {
         we have! I&apos;m honored to be a face behind the Botomir and enjoy our creation
       </Bio>
       <div style={{ textAlign: 'center' }}>
-        <Link href="https://soorajmodi.com" target="_blank" rel="noreferrer">soorajmodi.com</Link>
+        <Link href="https://github.com/kxanxc" target="_blank" rel="noreferrer">GitHub</Link>
       </div>
     </>
   );

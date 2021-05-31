@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export default function AboutMarshall() {
+export default function Marshall() {
   return (
     <>
       <Name>Marshall Asch</Name>

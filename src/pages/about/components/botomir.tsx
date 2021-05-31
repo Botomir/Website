@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export default function AboutBotomir() {
+export default function Botomir() {
   return (
     <Description>
       Botomir is a Discord Bot written in Javascript. They were born on November 25, 2020, and was a

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export default function AboutSooraj() {
+export default function Sooraj() {
   return (
     <>
       <Name>Sooraj Modi</Name>

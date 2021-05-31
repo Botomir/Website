@@ -1,10 +1,10 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import AboutSooraj from './aboutSooraj';
-import AboutMarshall from './aboutMarshall';
-import AboutKiara from './aboutKiara';
+import Sooraj from './sooraj';
+import Marshall from './marshall';
+import Kiara from './kiara';
 
-export default function AboutDev() {
+export default function Developers() {
   return (
     <Grid
       container
@@ -17,21 +17,21 @@ export default function AboutDev() {
         <img src="./soorajmodi.jpg" alt="Sooraj Modi" style={imgStyle} />
       </Grid>
       <Grid item md={8} sm={12} style={{ width: '100%' }}>
-        <AboutSooraj />
+        <Sooraj />
       </Grid>
 
       <Grid item md={4} sm={12}>
         <img src="./marshallasch.jpg" alt="Sooraj Modi" style={imgStyle} />
       </Grid>
       <Grid item md={8} sm={12} style={{ width: '100%' }}>
-        <AboutMarshall />
+        <Marshall />
       </Grid>
 
       <Grid item md={4} sm={12}>
         <img src="./kiaracallender.jpg" alt="Sooraj Modi" style={imgStyle} />
       </Grid>
       <Grid item md={8} sm={12} style={{ width: '100%' }}>
-        <AboutKiara />
+        <Kiara />
       </Grid>
     </Grid>
   );

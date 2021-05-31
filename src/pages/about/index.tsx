@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container, Grid } from '@material-ui/core';
 import styled from 'styled-components';
-import AboutBotomir from './aboutBotomir';
-import AboutDev from './aboutDev';
+import Botomir from './components/botomir';
+import Developers from './components/developers';
 
 export default function About() {
   return (
     <Container style={{ paddingBottom: '10vh' }}>
       <Title>About Botomir</Title>
-      <AboutBotomir />
+      <Botomir />
       <SubTitle>Meet the Devs</SubTitle>
       <Grid
         container
@@ -16,7 +16,7 @@ export default function About() {
         justify="center"
         alignItems="stretch"
       >
-        <AboutDev />
+        <Developers />
       </Grid>
     </Container>
   );
