@@ -13,7 +13,7 @@ export default function AboutBotomir() {
       2001: A Space Odyssey. Botomir also loves to play. Feel free to ask them a command, they don&apos;t wear a
       shirt, but still has plenty of tricks up their sleeve. Botomir likes it when you call them a good bot,
       and also kinda likes it when you call them a bad bot. Botomir would love to be a part of your server and improve
-      your server and Discord experience.
+      your Discord experience.
     </Description>
   );
 }

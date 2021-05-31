@@ -1,14 +1,23 @@
 import React from 'react';
-import { Container } from '@material-ui/core';
+import { Container, Grid } from '@material-ui/core';
 import styled from 'styled-components';
 import AboutBotomir from './aboutBotomir';
+import AboutDev from './aboutDev';
 
 export default function About() {
   return (
-    <Container>
+    <Container style={{ paddingBottom: '10vh' }}>
       <Title>About Botomir</Title>
       <AboutBotomir />
       <SubTitle>Meet the Devs</SubTitle>
+      <Grid
+        container
+        direction="column"
+        justify="center"
+        alignItems="stretch"
+      >
+        <AboutDev />
+      </Grid>
     </Container>
   );
 }

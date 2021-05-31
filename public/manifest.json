@@ -5,6 +5,10 @@
     {
       "src": "botomir.png",
       "type": "image/png"
+    },
+    {
+      "src": "soorajmodi.jpg",
+      "type": "image/jpg"
     }
   ],
   "start_url": ".",
