@@ -6,7 +6,7 @@ interface Props {
     href: string
 }
 
-function HomeBtn({ text, href }: Props) {
+export default function HomeBtn({ text, href }: Props) {
   return (
     <Button variant="outlined" color="primary" size="large" href={href} style={style}>{text}</Button>
   );
@@ -18,5 +18,3 @@ const style = {
   width: '400px',
   border: '2px solid',
 };
-
-export default HomeBtn;

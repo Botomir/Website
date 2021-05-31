@@ -3,7 +3,7 @@ import {
   AppBar, Button, Toolbar, Typography,
 } from '@material-ui/core';
 
-function NavBar() {
+export default function NavBar() {
   return (
     <div className="navbar">
       <AppBar position="static" style={{ backgroundColor: '#0F5376' }}>
@@ -32,5 +32,3 @@ const styles = {
     textDecoration: 'none',
   },
 };
-
-export default NavBar;

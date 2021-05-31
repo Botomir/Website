@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function HomeLogo() {
+export default function HomeLogo() {
   return (
     <BotomirLogo src="./botomir.png" alt="Botomir Logo" />
   );
@@ -12,5 +12,3 @@ const BotomirLogo = styled.img`
   max-height: 500px;
   min-height: 250px;
 `;
-
-export default HomeLogo;

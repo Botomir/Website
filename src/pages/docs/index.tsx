@@ -1,9 +1,7 @@
 import React from 'react';
 
-function Docs() {
+export default function Docs() {
   return (
     <p>Docs page</p>
   );
 }
-
-export default Docs;
