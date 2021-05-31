@@ -13,6 +13,10 @@
     {
       "src": "marshallasch.jpg",
       "type": "image/jpg"
+    },
+    {
+      "src": "kiaracallender.jpg",
+      "type": "image/jpg"
     }
   ],
   "start_url": ".",
