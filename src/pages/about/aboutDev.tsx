@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 import AboutSooraj from './aboutSooraj';
+import AboutMarshall from './aboutMarshall';
 
 export default function AboutDev() {
   return (
@@ -16,6 +17,12 @@ export default function AboutDev() {
       </Grid>
       <Grid item md={8} sm={12} style={{ width: '100%' }}>
         <AboutSooraj />
+      </Grid>
+      <Grid item md={4} sm={12}>
+        <img src="./marshallasch.jpg" alt="Sooraj Modi" style={imgStyle} />
+      </Grid>
+      <Grid item md={8} sm={12} style={{ width: '100%' }}>
+        <AboutMarshall />
       </Grid>
     </Grid>
   );

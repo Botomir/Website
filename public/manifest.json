@@ -9,6 +9,10 @@
     {
       "src": "soorajmodi.jpg",
       "type": "image/jpg"
+    },
+    {
+      "src": "marshallasch.jpg",
+      "type": "image/jpg"
     }
   ],
   "start_url": ".",
