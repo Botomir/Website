@@ -15,3 +15,5 @@ How to assemble a build
 - Build frontend
   - `cd frontend`
   - `npm run build`
+- Run full stack app  
+  - `python manage.py runserver`
