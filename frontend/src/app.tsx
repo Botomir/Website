@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
+import axios from 'axios';
 import { Footer, NavBar } from './components';
 import Router from './router';
 
+const endpoint: string = 'http://localhost:8000/';
+
 export default function App() {
+  useEffect(() => {
+    axios.get(`${endpoint}ping/`)
+    // eslint-disable-next-line no-console
+      .then((data) => console.log(data))
+      // eslint-disable-next-line no-console
+      .catch((error) => console.log(error));
+  }, []);
+
   return (
     <AppContainer>
       <NavBar />
