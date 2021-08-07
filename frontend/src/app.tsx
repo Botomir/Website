@@ -4,12 +4,14 @@ import axios from 'axios';
 import { Footer, NavBar } from './components';
 import Router from './router';
 
-// const endpoint: string = 'http://localhost:8000/';
+const endpoint: string = 'http://localhost:8000/';
 
 export default function App() {
   useEffect(() => {
-    axios.get('http://localhost:8000/ping/')
+    axios.get(`${endpoint}ping/`)
+    // eslint-disable-next-line no-console
       .then((data) => console.log(data))
+      // eslint-disable-next-line no-console
       .catch((error) => console.log(error));
   }, []);
 

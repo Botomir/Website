@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export default function HomeLogo() {
   return (
-    <BotomirLogo src="./botomir.png" alt="Botomir Logo" />
+    <BotomirLogo src="/static/botomir.png" alt="Botomir Logo" />
   );
 }
 

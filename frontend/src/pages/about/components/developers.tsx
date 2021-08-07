@@ -14,21 +14,21 @@ export default function Developers() {
       spacing={2}
     >
       <Grid item md={4} sm={12}>
-        <img src="./soorajmodi.jpg" alt="Sooraj Modi" style={imgStyle} />
+        <img src="/static/soorajmodi.jpg" alt="Sooraj Modi" style={imgStyle} />
       </Grid>
       <Grid item md={8} sm={12} style={{ width: '100%' }}>
         <Sooraj />
       </Grid>
 
       <Grid item md={4} sm={12}>
-        <img src="./marshallasch.jpg" alt="Sooraj Modi" style={imgStyle} />
+        <img src="/static/marshallasch.jpg" alt="Marshall Asch" style={imgStyle} />
       </Grid>
       <Grid item md={8} sm={12} style={{ width: '100%' }}>
         <Marshall />
       </Grid>
 
       <Grid item md={4} sm={12}>
-        <img src="./kiaracallender.jpg" alt="Sooraj Modi" style={imgStyle} />
+        <img src="/static/kiaracallender.jpg" alt="Kiara Callender" style={imgStyle} />
       </Grid>
       <Grid item md={8} sm={12} style={{ width: '100%' }}>
         <Kiara />

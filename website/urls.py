@@ -16,8 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from api.views import ping
+from core.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ping/', ping, name="ping"),
+    path('', index, name="index"),
+    path('documentation/', index, name="documentation"),
+    path('statistics/', index, name="statistics"),
+    path('about/', index, name="about"),
 ]
