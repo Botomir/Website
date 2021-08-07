@@ -25,18 +25,16 @@ SECRET_KEY = 'django-insecure-+9vrqfa@-w!64l(r8jgg8x4*0_s^e2r$*zw4hnjh8161-t4g_w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-CORS_ORIGIN_ALLOW_ALL = True
-ALLOWED_HOSTS = ['*']
-
-# CORS_ORIGIN_ALLOW_ALL = False
-# ALLOWED_HOSTS = [
-#     "www.botomir.com",
-#     "localhost",
-# ]
-# CORS_ORIGIN_WHITELIST = [
-#     "www.botomir.com",
-#     "localhost",
-# ]
+CORS_ORIGIN_ALLOW_ALL = False
+ALLOWED_HOSTS = [
+    "botomir.com",
+    "localhost",
+]
+CORS_ORIGIN_WHITELIST = [
+    "https://botomir.com",
+    "http://localhost:3000",
+    "http://localhost:8000",
+]
 
 # Application definition
 
